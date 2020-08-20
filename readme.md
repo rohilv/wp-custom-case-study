@@ -16,8 +16,8 @@
 2.  Using Command line
 
 - Using command line navigate to your Website root folder.
-- Assuming that you dont  have it already installed, else delete / backup the existing folder in `wp-content\plugins`
+- Assuming that you dont have it already installed, else delete / backup the existing folder in `wp-content\plugins`
 - Run the command mentioned below:
   ```
-  git clone https://github.com/rohilv/wp-custom-case-study.git wp-content/plugins && rm -rf wp-content/plugins/.git wp-content/plugins/readme.md
+  git clone https://github.com/rohilv/wp-custom-case-study.git wp-content/plugins/custom-case-study && rm -rf wp-content/plugins/custom-case-study/.git wp-content/plugins/custom-case-study/readme.md
   ```
