@@ -16,5 +16,5 @@
 2.  Using Command line
 
 - Using command line navigate to your Website root folder.
-- Run the command mentioned below:
-  `git clonehttps://github.com/rohilv/wp-custom-case-study.git wp-content/plugins/custom-case-study rm -rf wp-content/plugins/custom-case-study/.git`
+- Run the command mentioned below:\n
+  `git clonehttps://github.com/rohilv/wp-custom-case-study.git wp-content/plugins/custom-case-study && rm -rf wp-content/plugins/custom-case-study/.git`
