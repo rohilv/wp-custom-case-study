@@ -41,7 +41,7 @@ function register_custom_case_study(){
 		'filter_items_list'     => 'Filter Case Studies list',
     );
     
-    
+
 	$rewrite = array(
 		'slug'                  => 'case-study',
 		'with_front'            => true,
@@ -73,6 +73,6 @@ function register_custom_case_study(){
 	register_post_type( 'case_study', $args );
 }
 
-add_action('init', 'register_custom_case_study')
+add_action('init', 'register_custom_case_study');
 
 ?>
