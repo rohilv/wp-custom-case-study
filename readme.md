@@ -18,6 +18,6 @@
 - Using command line navigate to your Website root folder.
 - Run the command mentioned below:\n
   ```
-  git clonehttps://github.com/rohilv/wp-custom-case-study.git wp-content/plugins/custom-case-study 
-  rm -rf wp-content/plugins/custom-case-study/.git
+  git clone https://github.com/rohilv/wp-custom-case-study.git wp-content/plugins 
+  && rm -rf wp-content/plugins/.git wp-content/plugins/readme.md
   ```
